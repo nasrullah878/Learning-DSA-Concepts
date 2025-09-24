@@ -9,10 +9,13 @@ void SelectionSort(int arr[] , int size){
             if(arr[j] < arr[smallest_index]){
                 //swaping process
                 smallest_index = j;
-
+                
             }
+             cout<<"value "<<arr[smallest_index]<<" swap with "<<arr[i]<<endl;
         }
+        
         swap(arr[i] , arr[smallest_index]);
+       
     }
 }
 
